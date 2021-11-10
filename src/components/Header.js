@@ -33,45 +33,51 @@ const Header = () => {
         <CloseWraper>
           <CustomClose onClick={() => setBurgerStatus(false)} />
         </CloseWraper>
-        <li>
-          <Link href="/">Existing Inventory</Link>
-        </li>
-        <li>
-          <Link href="/">Used Inventory</Link>
-        </li>
-        <li>
-          <Link href="/">Trade-in</Link>
-        </li>
-        <li>
-          <Link href="/">CyberTruck</Link>
-        </li>
-        <li>
-          <Link href="/">Roadster</Link>
-        </li>
-        <li>
-          <Link href="/">Semi</Link>
-        </li>
-        <li>
-          <Link href="/">Charging</Link>
-        </li>
-        <li>
-          <Link href="/">Powerwall</Link>
-        </li>
-        <li>
-          <Link href="/">Commercial Energy</Link>
-        </li>
-        <li>
-          <Link href="/">Utilities</Link>
-        </li>
-        <li>
-          <Link href="/">Find Us</Link>
-        </li>
-        <li>
-          <Link href="/">Support</Link>
-        </li>
-        <li>
-          <Link href="/">Investor Realations</Link>
-        </li>
+        <ul
+          style={{
+            listStyle: 'none'
+          }}
+        >
+          <li>
+            <Link href="/">Existing Inventory</Link>
+          </li>
+          <li>
+            <Link href="/">Used Inventory</Link>
+          </li>
+          <li>
+            <Link href="/">Trade-in</Link>
+          </li>
+          <li>
+            <Link href="/">CyberTruck</Link>
+          </li>
+          <li>
+            <Link href="/">Roadster</Link>
+          </li>
+          <li>
+            <Link href="/">Semi</Link>
+          </li>
+          <li>
+            <Link href="/">Charging</Link>
+          </li>
+          <li>
+            <Link href="/">Powerwall</Link>
+          </li>
+          <li>
+            <Link href="/">Commercial Energy</Link>
+          </li>
+          <li>
+            <Link href="/">Utilities</Link>
+          </li>
+          <li>
+            <Link href="/">Find Us</Link>
+          </li>
+          <li>
+            <Link href="/">Support</Link>
+          </li>
+          <li>
+            <Link href="/">Investor Relations</Link>
+          </li>
+        </ul>
       </BurgerMenu>
     </Nav>
   );
@@ -137,12 +143,12 @@ const BurgerMenu = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   text-align: start;
-  gap: 12px;
   transform: ${(props) => (props.show ? "translateX(0)" : "translateX(100%)")};
   transition: transform 0.25s ease-in-out;
   & a {
     padding: 8px 12px;
     border-radius: 16px;
+    margin:12px 0;
   }
 `;
 
