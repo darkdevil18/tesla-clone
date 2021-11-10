@@ -30,14 +30,14 @@ const MyModal = (props) => {
             margin: '1.5rem 0'
           }}
         >Attention Viewer!!!</h1>
-        <h3
+        <h2
           style={{
             margin: '1.5rem 0'
           }}
         >
           This is a clone of <a href="https://www.tesla.com/">tesla.com</a> and
           not the original website.
-        </h3>
+        </h2>
         <Button onClick={props.onClick}>Close</Button>
       </main>
     </div>

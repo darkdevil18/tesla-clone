@@ -2,27 +2,27 @@ import styled from "styled-components";
 import Fade from "react-reveal/Fade";
 
 const Section = (props) => {
-    const { src, name, desc, leftBtnTxt, rightBtnTxt } = props.obj;
+  const { src, name, desc, leftBtnTxt, rightBtnTxt } = props.obj;
 
-    return (
-        <Wrap src={src}>
-            <Fade bottom>
-                <ItemText>
-                    <H1>{name}</H1>
-                    <H2>{desc}</H2>
-                </ItemText>
-            </Fade>
-            <div>
-                <Fade bottom>
-                    <ButtonGroup>
-                        <LeftButton>{leftBtnTxt}</LeftButton>
-                        {rightBtnTxt && <RightButton>{rightBtnTxt}</RightButton>}
-                    </ButtonGroup>
-                </Fade>
-                <DownArrow src="/images/down-arrow.svg" />
-            </div>
-        </Wrap>
-    );
+  return (
+    <Wrap src={src}>
+      <Fade bottom>
+        <ItemText>
+          <H1>{name}</H1>
+          <H2>{desc}</H2>
+        </ItemText>
+      </Fade>
+      <div>
+        <Fade bottom>
+          <ButtonGroup>
+            <LeftButton>{leftBtnTxt}</LeftButton>
+            {rightBtnTxt && <RightButton>{rightBtnTxt}</RightButton>}
+          </ButtonGroup>
+        </Fade>
+        <DownArrow src="/images/down-arrow.svg" alt="down-arrow" />
+      </div>
+    </Wrap>
+  );
 };
 
 export default Section;
