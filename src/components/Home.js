@@ -68,8 +68,8 @@ const products = [
 const Home = () => {
     return (
         <Container>
-            <Header />
             <React.Suspense fallback={<div>Loading...</div>}>
+                <Header />
                 {products.map((prd) => (
                     <Section key={prd.id} obj={prd} />
                 ))}
