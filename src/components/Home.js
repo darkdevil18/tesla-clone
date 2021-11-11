@@ -1,6 +1,10 @@
+import React from 'react';
 import styled from "@emotion/styled";
-import Header from "./Header";
-import Section from "./Section";
+// import Header from "./Header";
+// import Section from "./Section";
+
+const Header = React.lazy(() => import('./Header'));
+const Section = React.lazy(() => import('./Section'))
 
 const products = [
     {
@@ -65,9 +69,11 @@ const Home = () => {
     return (
         <Container>
             <Header />
-            {products.map((prd) => (
-                <Section key={prd.id} obj={prd} />
-            ))}
+            <React.Suspense fallback={<div>Loading...</div>}>
+                {products.map((prd) => (
+                    <Section key={prd.id} obj={prd} />
+                ))}
+            </React.Suspense>
         </Container>
     );
 };

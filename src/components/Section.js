@@ -19,7 +19,7 @@ const Section = (props) => {
             {rightBtnTxt && <RightButton>{rightBtnTxt}</RightButton>}
           </ButtonGroup>
         </Fade>
-        <DownArrow src="/images/down-arrow.svg" alt="down-arrow" />
+        <DownArrow src="/images/down-arrow.svg" alt="down-arrow" height="24px" width="24px" />
       </div>
     </Wrap>
   );
