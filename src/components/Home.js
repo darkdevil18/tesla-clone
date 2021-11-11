@@ -6,7 +6,7 @@ const products = [
     {
         id: "1",
         name: "Model S",
-        src: "/images/model-s.jpg",
+        src: "/images/model-s.webp",
         desc: "Order Online for Touchless Delivery",
         leftBtnTxt: "Custom Order",
         rightBtnTxt: "Existing Inventory"
@@ -14,7 +14,7 @@ const products = [
     {
         id: "2",
         name: "Model Y",
-        src: "/images/model-y.jpg",
+        src: "/images/model-y.webp",
         desc: "Order Online for Touchless Delivery",
         leftBtnTxt: "Custom Order",
         rightBtnTxt: "Existing Inventory"
@@ -22,7 +22,7 @@ const products = [
     {
         id: "3",
         name: "Model 3",
-        src: "/images/model-3.jpg",
+        src: "/images/model-3.webp",
         desc: "Order Online for Touchless Delivery",
         leftBtnTxt: "Custom Order",
         rightBtnTxt: "Existing Inventory"
@@ -30,7 +30,7 @@ const products = [
     {
         id: "4",
         name: "Model X",
-        src: "/images/model-x.jpg",
+        src: "/images/model-x.webp",
         desc: "Order Online for Touchless Delivery",
         leftBtnTxt: "Custom Order",
         rightBtnTxt: "Existing Inventory"
@@ -38,7 +38,7 @@ const products = [
     {
         id: "5",
         name: "Solar Panels",
-        src: "/images/solar-panel.jpg",
+        src: "/images/solar-panel.webp",
         desc: "Lowest Cost Solar Panels in America",
         leftBtnTxt: "Order Now",
         rightBtnTxt: "Learn More"
@@ -46,7 +46,7 @@ const products = [
     {
         id: "6",
         name: "Solar Roof",
-        src: "/images/solar-roof.jpg",
+        src: "/images/solar-roof.webp",
         desc: "Produce Clean Energy From Your Roof",
         leftBtnTxt: "Order Now",
         rightBtnTxt: "Learn More"
@@ -54,7 +54,7 @@ const products = [
     {
         id: "7",
         name: "Accessories",
-        src: "/images/accessories.jpg",
+        src: "/images/accessories.webp",
         desc: "",
         leftBtnTxt: "Order Now",
         rightBtnTxt: ""
