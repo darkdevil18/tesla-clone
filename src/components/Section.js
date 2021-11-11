@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "@emotion/styled";
 import Fade from "react-reveal/Fade";
 
 const Section = (props) => {

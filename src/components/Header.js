@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styled from "styled-components";
+import styled from "@emotion/styled";
 import CloseIcon from "@mui/icons-material/Close";
 
 const Header = () => {
