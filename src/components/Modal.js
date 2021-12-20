@@ -60,6 +60,7 @@ const Button = styled.button`
   margin-bottom: 1rem;
   font-size: 1rem;
   border: 2px solid blueviolet;
+  border-radius:2rem;
   box-shadow: 1px 1px 4px blueviolet;
   background: none;
   cursor: pointer;
